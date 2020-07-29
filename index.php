@@ -38,14 +38,15 @@
             <div class="form-group">
                 <label for="file_extension">Select File Extension:</label>
                 <select name="file_extension" id="file_extension" class="form-control">
-                    <option id="all">All</option>
-                    <option id="mp4">mp4</option>
-                    <option id="mp3">mp3</option>
-                    <option id="jpeg">jpeg</option>
-                    <option id="jpg">jpg</option>
-                    <option id="png">png</option>
-                    <option id="pdf">pdf</option>
-                    <option id="bmp">bmp</option>
+                    <option value="all">All</option>
+                    <option value="mp4">mp4</option>
+                    <option value="mp3">mp3</option>
+                    <option value="jpeg">jpeg</option>
+                    <option value="jpg">jpg</option>
+                    <option value="png">png</option>
+                    <option value="pdf">pdf</option>
+                    <option value="bmp">bmp</option>
+                    <option value="txt">txt</option>
                 </select>
             </div>
             <button type="submit" name="submit" class="btn btn-primary">Submit</button>
